@@ -80,18 +80,7 @@ densnv::mp_heatmap(geocoded_datasets = z,
 
 
 ### [**Ciudad Acuña**]{style="color:#990000"}
-```{r heatmap_acuña}
-densnv::mp_heatmap(geocoded_datasets = z,
-                   cve_edo = "05",
-                   locality = "Ciudad Acuña",
-                   status_caso = c(1, 2),
-                   week = c(1:53),
-                   zoom = NULL,
-                   map_type = NULL,
-                   alpha = 0.6,
-                   static = FALSE,
-                   palette = viridis::turbo)
-```
+
 
 ### [**Sabinas**]{style="color:#990000"}
 ```{r heatmap_sabinas}
